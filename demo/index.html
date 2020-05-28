@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+
+	<title>angular-japanese-numerals</title>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/angular.js/1.7.8/angular.min.js"></script>
+	<script src="../dist/angular-full-width-to-half-width.min.js"></script>
+
+	<script src="app.js"></script>
+</head>
+<body ng-app="app" ng-controller="appController">
+	<p>
+		{{"ｈえｌｌｏ　ｗｏｒｌｄ！" | fullWidthToHalfWidth }} : ｈえｌｌｏ　ｗｏｒｌｄ！
+	</p>
+	<p>
+		{{"Whａt， is this？" | fullWidthToHalfWidth}} : Whａt， is this？
+	</p>
+	<p>
+		{{ javascriptTest }} : $scope.javascriptTest Hello world!
+	</p>
+	<p>
+		{{ javascriptString }} : $scope.javascriptString ｈえｌｌｏ　ｗｏｒｌｄ！
+	</p>
+</body>
+</html>

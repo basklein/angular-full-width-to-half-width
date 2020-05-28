@@ -1,0 +1,37 @@
+{
+  "name": "angular-full-width-to-half-width",
+  "version": "0.1.0",
+  "description": "Full-width to half-width characters service and filters for AngularJS",
+  "main": "dist/angular-full-width-to-half-width.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/basklein/angular-full-width-to-half-width.git"
+  },
+  "keywords": [
+    "cjk",
+    "characters",
+    "digits",
+    "angularjs",
+    "angular",
+    "filter",
+    "service"
+  ],
+  "author": "Bas Klein <basklein@basklein.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/basklein/angular-full-width-to-half-width/issues"
+  },
+  "homepage": "https://github.com/basklein/angular-full-width-to-half-width#readme",
+  "devDependencies": {
+    "grunt": "^1.0.4",
+    "grunt-contrib-concat": "^0.5.1",
+    "grunt-contrib-uglify": "^0.11.0",
+    "grunt-contrib-watch": "^1.1.0"
+  },
+  "dependencies": {
+    "angular": "^1.7.8"
+  }
+}
